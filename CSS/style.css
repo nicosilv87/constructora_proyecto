@@ -1,0 +1,83 @@
+/*Estilos generales*/
+*{font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.ul-navbar{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap; 
+    
+}
+.ul-navbar li a{
+color: black;
+font-weight: 300;
+text-decoration: none;
+}
+
+
+
+/*Header*/
+.index-header{
+background-image: url(../img/header.jpg);
+background-size: cover;   
+background-position: center;
+height: 100vh;
+width: 100%;
+}
+
+.header-contenedor-superior{
+
+padding: 1rem 2rem;
+
+
+position: fixed;
+top: 0;
+z-index: 1000;
+
+}
+
+.logotipo{
+width: 10rem;
+height: auto;
+}
+/*Main*/
+.nuestra-empresa{
+    background-color: #4e4d4d90;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+
+.somos{
+    background-color: #908f8f5b;
+    padding: 2rem;
+}
+
+.fotos{
+ width: 100%;   
+ height: 30rem;
+ object-fit: cover;
+ display: block;
+}
+
+
+/*Footer*/
+.logo-enlace{
+ width: 5rem;   
+ height: 5rem;
+ object-fit: cover;
+}
+
+@mediaonly (min-width:600px){
+
+    }
